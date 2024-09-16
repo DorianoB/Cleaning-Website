@@ -1,10 +1,10 @@
-import home from "../images/profilepic.png";
+import home from "../images/profilepic01.png";
 
 export default function Home() {
   return (
     <>
-      <h2>We take care of your Home</h2>
-      <img className="profilepic" src={home} />
+      <h2>We take care of your home</h2>
+      <img className="profilepic" src={home} alt="Profile Picture" />
     </>
   );
 }

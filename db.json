@@ -113,6 +113,55 @@
       "lastName": "Bergamin",
       "email": "doriano.bergamin18@gmail.com",
       "address": "3/2 Banks avenue"
+    },
+    {
+      "id": "e3e2",
+      "firstName": "Doriano",
+      "lastName": "Bergamin",
+      "email": "doriano.bergamin18@gmail.com",
+      "address": "3/2 Banks avenue",
+      "beds": "3",
+      "bathrooms": "4",
+      "gym": "",
+      "comments": "test"
+    },
+    {
+      "id": "778c",
+      "firstName": "Doriano",
+      "lastName": "Bergamin",
+      "email": "doriano.bergamin18@gmail.com",
+      "address": "3/2 Banks avenue",
+      "beds": "3",
+      "bathrooms": "4",
+      "gym": "",
+      "comments": "test"
+    },
+    {
+      "id": "a03e",
+      "firstName": "Doriano",
+      "lastName": "Bergamin",
+      "email": "doriano.bergamin18@gmail.com",
+      "address": "3/2 Banks avenue"
+    },
+    {
+      "id": "1b9b"
+    },
+    {
+      "id": "8466",
+      "firstName": "dori"
+    },
+    {
+      "id": "e93b",
+      "firstName": "Doriano",
+      "lastName": "Bergamin",
+      "email": "doriano.bergamin18@gmail.com",
+      "address": "202/17-19 winston street",
+      "beds": "3",
+      "bathrooms": "4",
+      "gym": "",
+      "pool": "",
+      "bbq": "",
+      "comments": "., m;"
     }
   ],
   "testimonials": [

@@ -6,17 +6,21 @@ function Nav() {
     <>
       <nav className="navbar">
         <span>
-          <Link to="/about">About</Link>
+          <Link to="/about">About us</Link>
         </span>
-        <span>
-          <Link to="/services">Services</Link>
+        <span className="dropdown">
+          <Link className="dropdown">Services</Link>
+          <div className="dropdown-content">
+            {<Link to="/cleaningServices">Cleaning services</Link>}
+            {<Link to="/propertyManagement">Property management</Link>}
+          </div>
         </span>
         <span>
           <Link to="/reviews">Reviews</Link>
         </span>
-        {/* <span>
+        <span>
           <Link to="/contact">Contact</Link>
-        </span> */}
+        </span>
         <strong>
           <span className="quote">
             <Link to="/quote">Get a Quote</Link>

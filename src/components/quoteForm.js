@@ -44,6 +44,7 @@ export default function QuoteForm({ submitUrl }) {
             First Name:{" "}
             <input
               id="firstname"
+              required
               type="text"
               name="firstName"
               value={inputs.firstName || ""}
@@ -55,6 +56,7 @@ export default function QuoteForm({ submitUrl }) {
             Last Name:{" "}
             <input
               id="lastname"
+              required
               type="text"
               name="lastName"
               value={inputs.lastName || ""}
@@ -66,9 +68,21 @@ export default function QuoteForm({ submitUrl }) {
             Email:{" "}
             <input
               id="email"
+              required
               type="text"
               name="email"
               value={inputs.email || ""}
+              onChange={handleChange}
+            />
+          </label>
+          <label id="phone">
+            Phone:{" "}
+            <input
+              id="phone"
+              required
+              type="text"
+              name="phone"
+              value={inputs.phone || ""}
               onChange={handleChange}
             />
           </label>
@@ -87,6 +101,7 @@ export default function QuoteForm({ submitUrl }) {
             Bedrooms:{" "}
             <input
               id="beds"
+              required
               type="text"
               name="beds"
               value={inputs.beds || ""}
@@ -97,6 +112,7 @@ export default function QuoteForm({ submitUrl }) {
             Bathrooms:{" "}
             <input
               id="baths"
+              required
               type="text"
               name="bathrooms"
               value={inputs.bathrooms || ""}
@@ -131,9 +147,10 @@ export default function QuoteForm({ submitUrl }) {
             <label>BBQ area</label>
           </div>
           <label id="comments">
-            Tell us about your Property:{" "}
+            Tell us about your needs:{" "}
             <textarea
               id="comment"
+              required
               type="text"
               name="comments"
               value={inputs.comments || ""}

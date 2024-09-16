@@ -8,6 +8,9 @@ import Contact from "./components/contact";
 import Quote from "./components/quote";
 import Reviews from "./components/reviews";
 import Services from "./components/services";
+import CleaningServices from "./components/cleaningServices";
+import CleaningService from "./components/cleaningService";
+import PropertyManagement from "./components/propertyManagement";
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
         <Route path="quote" element={<Quote />} />
         <Route path="reviews" element={<Reviews />} />
         <Route path="services" element={<Services />} />
+        <Route path="cleaningServices" element={<CleaningServices />} />
+        <Route path="cleaningService" element={<CleaningService />} />
+        <Route path="propertymanagement" element={<PropertyManagement />} />
       </Routes>
     </>
   );
