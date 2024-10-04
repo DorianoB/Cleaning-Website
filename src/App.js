@@ -12,6 +12,8 @@ import CleaningServices from "./components/cleaningServices";
 import CleaningService from "./components/cleaningService";
 import PropertyManagement from "./components/propertyManagement";
 import Footer from "./components/footer";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (

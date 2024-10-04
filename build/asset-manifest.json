@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/Project02-Phase02/static/css/main.4d17d66e.css",
-    "main.js": "/Project02-Phase02/static/js/main.5b1282bc.js",
+    "main.css": "/Project02-Phase02/static/css/main.6db69d27.css",
+    "main.js": "/Project02-Phase02/static/js/main.68aea62a.js",
     "static/js/453.ed3810f9.chunk.js": "/Project02-Phase02/static/js/453.ed3810f9.chunk.js",
-    "static/media/about01.png": "/Project02-Phase02/static/media/about01.6919dbef25a2f36ef111.png",
-    "static/media/reviews1.png": "/Project02-Phase02/static/media/reviews1.94c0d3a61189f0e85f6f.png",
-    "static/media/profilepic.png": "/Project02-Phase02/static/media/profilepic.007d1c56f30faa96b939.png",
-    "static/media/about.png": "/Project02-Phase02/static/media/about.2eb045e10bfc5ef3c969.png",
-    "static/media/marketing.png": "/Project02-Phase02/static/media/marketing.b8c028967daefb773560.png",
-    "static/media/cleaning.png": "/Project02-Phase02/static/media/cleaning.eb0b268b7524f5839614.png",
-    "static/media/reviews2.png": "/Project02-Phase02/static/media/reviews2.9d513129ba1efa950989.png",
+    "static/media/aboutUs.png": "/Project02-Phase02/static/media/aboutUs.94c0d3a61189f0e85f6f.png",
+    "static/media/listing.png": "/Project02-Phase02/static/media/listing.dd8bc4d9d6f4b54c7099.png",
+    "static/media/profilepic01.png": "/Project02-Phase02/static/media/profilepic01.9358f47874b51ff2ab0e.png",
+    "static/media/pricing.png": "/Project02-Phase02/static/media/pricing.b8c028967daefb773560.png",
     "static/media/management.png": "/Project02-Phase02/static/media/management.24babdf914b538035131.png",
+    "static/media/cleaningServices.png": "/Project02-Phase02/static/media/cleaningServices.bd552018896f1640176c.png",
+    "static/media/maintenance.png": "/Project02-Phase02/static/media/maintenance.ec9f0f3e0b76705f7264.png",
+    "static/media/washing.png": "/Project02-Phase02/static/media/washing.60b7df414e9b75201305.png",
+    "static/media/review.png": "/Project02-Phase02/static/media/review.1d4f7f275d8434bcf99a.png",
+    "static/media/homebound.png": "/Project02-Phase02/static/media/homebound.0b3cf9c45c60b9913d00.png",
     "static/media/quote.jpg": "/Project02-Phase02/static/media/quote.15825f0b079db7dfd2c1.jpg",
+    "static/media/essentials.png": "/Project02-Phase02/static/media/essentials.42e3443218f95e2e7f2d.png",
+    "static/media/photography.png": "/Project02-Phase02/static/media/photography.4e34b82565e6b91e6651.png",
+    "static/media/service.png": "/Project02-Phase02/static/media/service.412b954ce022c5f966b1.png",
     "static/media/air.otf": "/Project02-Phase02/static/media/air.81798c6cdace650a8c1a.otf",
     "static/media/AirbnbCereal_W_Lt.otf": "/Project02-Phase02/static/media/AirbnbCereal_W_Lt.6cb70d2c3d67dfe9b7fc.otf",
     "index.html": "/Project02-Phase02/index.html",
-    "main.4d17d66e.css.map": "/Project02-Phase02/static/css/main.4d17d66e.css.map",
-    "main.5b1282bc.js.map": "/Project02-Phase02/static/js/main.5b1282bc.js.map",
+    "main.6db69d27.css.map": "/Project02-Phase02/static/css/main.6db69d27.css.map",
+    "main.68aea62a.js.map": "/Project02-Phase02/static/js/main.68aea62a.js.map",
     "453.ed3810f9.chunk.js.map": "/Project02-Phase02/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d17d66e.css",
-    "static/js/main.5b1282bc.js"
+    "static/css/main.6db69d27.css",
+    "static/js/main.68aea62a.js"
   ]
 }

@@ -398,8 +398,8 @@ div.border a {
 }
 .reviews{
   font-family:"src/fonts/airbnb-cereal-font/AirbnbCereal_W_Blk.otf";
-  margin-left: 50%;
-  margin-right: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-bottom: 5%;
   margin-top: 2%;
 }
@@ -417,8 +417,52 @@ margin-bottom: 5px;
 margin-left: 47%;
 text-align: center;
 }
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-left: 24%;
+  list-style: none;
+  text-align: center;
+}
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
 
+    position: absolute;
+    top: 50%;
+
+    display: none;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-next
+{
+    /* right: -25px; */
+    display: none;
+}
+element.style{
+  display: none;
+}
 #writeareview{
+  position: absolute;
+  margin-top: 5%;
   text-decoration: none;
   border: black solid 2px;
   background-color: #EFEFEF;
@@ -442,6 +486,124 @@ width: 100%;
   margin-left: 5%;
   border-radius: 20px;
   box-shadow: 5px 5px 25px 5px #888888;
+}
+Arrows
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: none;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+    display: none;
+
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 1;
+    display: none;
+
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+    display: none;
+
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: none;
+
+}
+
+.slick-prev
+{
+    left: -25px;
+    display: none;
+
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+    display: none;
+
+}
+.slick-prev:before
+{
+    content: '←';
+    display: none;
+
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '→';
+    display: none;
+
+}
+
+.slick-next
+{
+    /* right: -25px; */
+    display: none;
+}
+[dir='rtl'] .slick-next
+{
+    display: none;
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: '→';
+    display: none;
+
+}
+[dir='rtl'] .slick-next:before
+{
+    display: none;
+    content: '←';
 }
 
 @media (max-width: 480px) {
@@ -650,16 +812,16 @@ li{
   border-radius: 20px;
 }
 .reviewtitle{
-  font-size: 15px; 
+  font-size: 11px; 
   margin-left: 47%;
   text-align: center;
   font-family:"/fonts/airbnb-cereal-font/AirbnbCereal_W_Blk.otf";
 }
 .reviews{
   font-family:"src/fonts/airbnb-cereal-font/AirbnbCereal_W_Blk.otf";
-  margin-left: 50%;
+  margin-left: 10%;
   margin-right: 3%;
-  margin-bottom: 5%;
+  margin-bottom: 8%;
   margin-top: 2%;
   font-size: 11px;
 }
@@ -684,10 +846,48 @@ text-align: center;
   background-color: #EFEFEF;
   color: black;
   padding: 5px;
-  margin-left: 60%;
+  margin-left: 65%;
   font-size: 9px;
   font-family:"src/fonts/airbnb-cereal-font/AirbnbCereal_W_Blk.otf";
   border-radius: 15px;
+}
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-left: 24%;
+  list-style: none;
+  text-align: center;
+}
+.slick-prev
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: none;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-arrow .slick-next{
+display: none;
 }
 .reviewsection{
 margin-bottom: 3%;
