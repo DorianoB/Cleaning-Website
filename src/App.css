@@ -1036,6 +1036,10 @@ h2 {
   /* display: block; */
   margin-bottom: 0%;
 }
+.cleaningsection{
+  display: grid;
+  align-content: start;
+}
 .cleaningServicesPng {
   width: 150px;
   height: 100px;
@@ -1078,33 +1082,33 @@ li{
   border-radius: 20px; 
 }  
   .cleaningLeft{
-    font-size: 21px; 
+    font-size: 15px; 
     margin-left: 5%;
     margin-top: 4%;
     font-family:"/fonts/airbnb-cereal-font/AirbnbCereal_W_Blk.otf";
     }
   
     .cleaningRight{
-      font-size: 21px; 
+      font-size: 15px; 
       margin-left: 50%;
       font-family:"/fonts/airbnb-cereal-font/AirbnbCereal_W_Blk.otf";
     }
   .photograhpyRight{
-    font-size: 21px; 
+    font-size: 15px; 
       margin-left: 50%;
       margin-top: 5%;
       font-family:"/fonts/airbnb-cereal-font/AirbnbCereal_W_Blk.otf";
   }
   .listingLeft{
-    font-size: 21px; 
+    font-size: 15px; 
     margin-left: 5%;
-    margin-top: 23%;
+    margin-top: 10%;
     font-family:"/fonts/airbnb-cereal-font/AirbnbCereal_W_Blk.otf";
     }
     .maintenanceLeft{
-      font-size: 21px; 
+      font-size: 15px; 
       margin-left: 5%;
-      margin-top: 19%;
+      margin-top: 10%;
       font-family:"/fonts/airbnb-cereal-font/AirbnbCereal_W_Blk.otf";
       }
   .cleaningServicesLeft {
@@ -1129,7 +1133,7 @@ li{
   }
   .photographyPng{
     width: 350px;
-    height: 250px;
+    height: 180px;
     position: sticky;
     float: left;
     margin-left: 3%;
@@ -1139,7 +1143,7 @@ li{
   }
   .listingPng {
     width: 420px;
-    height: 250px;
+    height: 200px;
     position: sticky;
     float: right;
     margin-right: 3%;
@@ -1149,7 +1153,7 @@ li{
   }
   .pricingPng{
     width: 352px;
-    height: 250px;
+    height: 200px;
     position: sticky;
     float: left;
     margin-left: 3%;
