@@ -1,4 +1,3 @@
-function Contact() {
-  return <p>Hallo</p>;
+export default function Contact() {
+  return <></>;
 }
-export default Contact;

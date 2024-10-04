@@ -4,6 +4,7 @@ import photography from "../images/photography.png";
 import listing from "../images/listing.png";
 import pricing from "../images/pricing.png";
 import maintenance from "../images/maintenance.png";
+import Footer from "./footer";
 
 export default function PropertyManagement() {
   return (
@@ -18,7 +19,6 @@ export default function PropertyManagement() {
         your guests are in expert hands every step of the way.
       </p>
       <img className="managementPng" src={management} />
-
       <h3 className="photograhpyRight">Professional Photography</h3>
       <p className="cleaningServicesRight">
         Stunning photos are essential for making your listing stand out. Because
@@ -26,7 +26,6 @@ export default function PropertyManagement() {
         captivating images of your property that truly shine.
       </p>
       <img className="photographyPng" src={photography} />
-
       <h3 className="listingLeft">Listing Creation</h3>
       <p className="cleaningServicesLeft">
         In the short-term rental market, your listing is crucial. Recognizing
@@ -35,7 +34,6 @@ export default function PropertyManagement() {
         truly stand out.
       </p>
       <img className="listingPng" src={listing} />
-
       <h3 className="cleaningRight">Advanced Pricing Strategies</h3>
       <p className="cleaningServicesRight">
         Aligning pricing with supply and demand is key to maintaining high
@@ -44,7 +42,6 @@ export default function PropertyManagement() {
         optimize your returns.
       </p>
       <img className="pricingPng" src={pricing} />
-
       <h3 className="maintenanceLeft">Maintenance Management</h3>
       <p className="cleaningServicesLeft">
         We are committed to maintaining your property to the highest standards.
@@ -53,8 +50,15 @@ export default function PropertyManagement() {
         experience for your guests.
       </p>
       <img className="maintenancePng" src={maintenance} />
-
-      <CleaningService />
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <hr></hr>
+      <Footer />
     </>
   );
 }

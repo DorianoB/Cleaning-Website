@@ -11,6 +11,7 @@ import Services from "./components/services";
 import CleaningServices from "./components/cleaningServices";
 import CleaningService from "./components/cleaningService";
 import PropertyManagement from "./components/propertyManagement";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="cleaningServices" element={<CleaningServices />} />
         <Route path="cleaningService" element={<CleaningService />} />
         <Route path="propertymanagement" element={<PropertyManagement />} />
+        <Route path="footer" element={<Footer />} />
       </Routes>
     </>
   );

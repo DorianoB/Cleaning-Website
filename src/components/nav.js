@@ -5,7 +5,7 @@ function Nav() {
   return (
     <>
       <nav className="navbar">
-        <span>
+        <span id="current">
           <Link to="/about">About us</Link>
         </span>
         <span className="dropdown">
@@ -19,16 +19,14 @@ function Nav() {
           <Link to="/reviews">Reviews</Link>
         </span>
         <span>
-          <Link to="/contact">Contact</Link>
+          {/* <Link to="#contact">Contact</Link> */}
+          <a href="#contact">Contact</a>
         </span>
         <strong>
           <span className="quote">
             <Link to="/quote">Get a Quote</Link>
           </span>
         </strong>
-        {/* <span className="phone">
-          <Link to="/contact">Contact us: 0481 924 285</Link>
-        </span> */}
       </nav>
     </>
   );

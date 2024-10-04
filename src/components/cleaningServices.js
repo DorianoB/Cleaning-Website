@@ -3,6 +3,7 @@ import about from "../images/cleaningServices.png";
 import cleaningService from "../images/service.png";
 import washing from "../images/washing.png";
 import essentials from "../images/essentials.png";
+import Footer from "./footer";
 
 export default function CleaningServices() {
   return (
@@ -59,8 +60,13 @@ export default function CleaningServices() {
         towels, and bin liners.
       </p>
       <img className="essentialPng" src={essentials} />
-
-      <CleaningService />
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <hr></hr>
+      <Footer />
     </>
   );
 }
