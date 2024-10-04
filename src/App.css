@@ -379,6 +379,7 @@ div.border a {
   height: 15px;
   margin-left: 15px;
   margin-right: 3px;
+  vertical-align: middle;
 
 }
 .phone{
@@ -388,6 +389,8 @@ div.border a {
   margin-left: 15px;
   margin-right: 3px;
   border: none;
+  vertical-align: middle;
+
 }
 
 .reviewtitle{
@@ -606,7 +609,7 @@ Arrows
     content: '←';
 }
 
-@media (max-width: 480px) {
+@media (max-width: 481px) {
   body {
     font-family:Airbnb;
 }
@@ -1032,7 +1035,10 @@ h2 {
   height: 400px;
   /* display: block; */
   margin-bottom: 0%;
-  /* border-radius:5px; */
+}
+.cleaningsection{
+  display: grid;
+  align-content: start;
 }
 .cleaningServicesPng {
   width: 150px;
@@ -1074,27 +1080,96 @@ li{
   margin-top: -28%;
   margin-bottom: 0%;
   border-radius: 20px; 
-}
-.cleaningServicesLeft {
-  margin-left:2%;
-  margin-right: 44%;
-  font-size: 11px;
-}
-.cleaningServicesRight{
-  font-size: 11px;
-  margin-right: 2%;
-  margin-left: 44%;
-}
-.cleaningLeft{
-  font-size: 15px; 
-  margin-left: 2%;
-  margin-top: 0%;
-  font-family:"/fonts/airbnb-cereal-font/AirbnbCereal_W_Blk.otf";
-  }
-
-  .cleaningRight{
+}  
+  .cleaningLeft{
     font-size: 15px; 
-    margin-left: 45%;
+    margin-left: 5%;
+    margin-top: 4%;
     font-family:"/fonts/airbnb-cereal-font/AirbnbCereal_W_Blk.otf";
+    }
+  
+    .cleaningRight{
+      font-size: 15px; 
+      margin-left: 50%;
+      font-family:"/fonts/airbnb-cereal-font/AirbnbCereal_W_Blk.otf";
+    }
+  .photograhpyRight{
+    font-size: 15px; 
+      margin-left: 50%;
+      margin-top: 5%;
+      font-family:"/fonts/airbnb-cereal-font/AirbnbCereal_W_Blk.otf";
+  }
+  .listingLeft{
+    font-size: 15px; 
+    margin-left: 5%;
+    margin-top: 10%;
+    font-family:"/fonts/airbnb-cereal-font/AirbnbCereal_W_Blk.otf";
+    }
+    .maintenanceLeft{
+      font-size: 15px; 
+      margin-left: 5%;
+      margin-top: 10%;
+      font-family:"/fonts/airbnb-cereal-font/AirbnbCereal_W_Blk.otf";
+      }
+  .cleaningServicesLeft {
+    text-align: left;
+    margin-left:5%;
+    margin-right: 58%;
+  }
+  .cleaningServicesRight{
+    /* text-align: right; */
+    margin-right: 5%;
+    margin-left: 50%;
+  }
+  .managementPng {
+    width: 415px;
+    height: 250px;
+    position: sticky;
+    float: right;
+    margin-right: 3%;
+    margin-top: -39%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+  }
+  .photographyPng{
+    width: 350px;
+    height: 180px;
+    position: sticky;
+    float: left;
+    margin-left: 3%;
+    margin-top: -21%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+  }
+  .listingPng {
+    width: 420px;
+    height: 200px;
+    position: sticky;
+    float: right;
+    margin-right: 3%;
+    margin-top: -24%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+  }
+  .pricingPng{
+    width: 352px;
+    height: 200px;
+    position: sticky;
+    float: left;
+    margin-left: 3%;
+    margin-top: -24%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+  }
+  
+  .maintenancePng {
+    width: 429px;
+    height: 250px;
+    position: sticky;
+    float: right;
+    margin-right: 5%;
+    margin-top: -15%;
+    margin-bottom: 3%;
+    border-radius: 20px;
   }
     }
